@@ -1,1 +1,10 @@
+# for latex
+*.swp
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
 _minted-paper/
