@@ -1,0 +1,6 @@
+$pdf_mode = 1;
+$pdf_previewer = "open -a /Applications/Skim.app";
+
+$pdflatex = 'pdflatex --shell-escape -interaction=nonstopmode %O %S -file-line-error -synctex=1';
+
+$clean_ext = "paux lox pdfsync out";
