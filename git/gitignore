@@ -11,3 +11,7 @@ _minted-paper/
 
 # for Mac
 .DS_Store
+
+# for Emacs backup files
+\#*\#
+.\#*
