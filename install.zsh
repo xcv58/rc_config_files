@@ -1,5 +1,5 @@
 #!/bin/zsh
-SCRIPT_FILE="${PWD}/${0}"
+SCRIPT_FILE=${0}
 if [ -L $SCRIPT_FILE ]; then
     SCRIPT_FILE=`readlink $SCRIPT_FILE`
 fi
