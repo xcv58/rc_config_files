@@ -1,6 +1,6 @@
 [user]
-	name = xcv58
-	email = chenyihonglove@gmail.com
+	name = Yihong Chen
+	email = yihongc@twitter.com
 [push]
 	default = matching
 [credential]
@@ -21,4 +21,8 @@
 	smudge = git-lfs smudge %f
 	required = true
 [color]
-	ui = auto
+	ui = true
+[diff]
+	renames = true
+[http]
+	postBuffer = 524288000
