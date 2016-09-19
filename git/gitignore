@@ -15,3 +15,5 @@ _minted-paper/
 # for Emacs backup files
 \#*\#
 .\#*
+
+.dropbox
