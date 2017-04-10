@@ -17,3 +17,5 @@ _minted-paper/
 .\#*
 
 .dropbox
+
+coverage/
