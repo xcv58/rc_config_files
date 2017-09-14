@@ -26,3 +26,9 @@
 	renames = true
 [http]
 	postBuffer = 524288000
+[gpg]
+	program = /usr/local/bin/krgpg
+[commit]
+	gpgSign = true
+[tag]
+	forceSignAnnotated = true
