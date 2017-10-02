@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-lastUpdateCheck 1506146724618
+lastUpdateCheck 1506715108944
 version-git-message "Bump version to v%s"
 version-git-tag true
 version-sign-git-tag true
