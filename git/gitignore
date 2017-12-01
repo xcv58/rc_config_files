@@ -1,7 +1,6 @@
 # for latex
 *.swp
 *.aux
-*.log
 *.out
 *.bbl
 *.blg
