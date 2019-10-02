@@ -1,6 +1,6 @@
 [user]
-	name = Yihong Chen
-	email = yihongc@twitter.com
+	name = xcv58
+	email = i@xcv58.com
 [push]
 	default = matching
 [credential]
@@ -31,7 +31,7 @@
 [difftool "Kaleidoscope"]
   cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [merge]
-    tool = Kaleidoscope
+	tool = Kaleidoscope
 [mergetool "Kaleidoscope"]
-  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
   trustExitCode = true
