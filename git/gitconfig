@@ -10,6 +10,7 @@
 	smudge = git-media-smudge %f
 [core]
 	excludesfile = ~/.gitignore
+	precomposeUnicode = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
