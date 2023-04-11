@@ -1,6 +1,9 @@
 [user]
 	name = xcv58
 	email = i@xcv58.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGQxu279V0nj2aH67YOw0yIw/cT6FQ3+yJD2wG53GKtl
+[gpg]
+	format = ssh
 [push]
 	default = matching
 [credential]
@@ -23,8 +26,6 @@
   tool = Kaleidoscope
 [http]
 	postBuffer = 524288000
-[gpg]
-	program = /usr/local/bin/krgpg
 [commit]
 	gpgSign = true
 [tag]
@@ -38,3 +39,5 @@
   trustExitCode = true
 [pull]
 	ff = only
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
